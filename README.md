@@ -12,6 +12,7 @@ this.mappings = {
      "/closures" = "ram:///"
 };
 ```
+> If your administrator has disabled the in-memory filesystem, you will need to change the path from `ram:///` to a writeable directory on your local filesystem.
 
 ### Installation
 Place the component in the directory of your choice accessible by your application.
