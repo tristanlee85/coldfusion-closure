@@ -1,4 +1,4 @@
-# coldfusion-closure
+# coldfusion-dynamic-closure
 
 Closure is a CF utility component, supported in ACF 10+ / Railo 4+, that compiles functions dynamically at runtime.
 
