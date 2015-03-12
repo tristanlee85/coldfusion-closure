@@ -7,7 +7,7 @@ Closure is a CF utility component, supported in ACF 10+ / Railo 4+, that compile
 Closure uses a single application mapping for a location to compile its code on the fly. You must either add a mapping to your Application.cfc or in the CF Administrator. By default, the mapping name should be `/closures`:
 
 *Application.cfc*
-```
+```cfc
 this.mappings = {
      "/closures" = "ram:///"
 };
@@ -18,12 +18,12 @@ Place the component in the directory of your choice accessible by your applicati
 
 ### Usage
 Create an instance of the Closure component:
-```java
+```cfc
 var oClosure = createObject("Closure");
 ```
 
 Creating an anonymous closure:
-```java
+```cfc
 // string representation of the closure to compile
 var closure = "function (num) { return num*10; }";
 
@@ -33,7 +33,7 @@ writeOutput(multiplyByTen(2)); // outputs 20
 ```
 
 Creating a named closure in a specific scope
-```java
+```cfc
 // string representation of the closure to compile
 var closure = "function (num) { return num*5; }";
 
