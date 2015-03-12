@@ -1,3 +1,4 @@
+<cfscript>
 /**
  * Utility for compiling closures. Required ACF 10+ / Railo 4.0+
  * @author Tristan Lee
@@ -49,3 +50,4 @@ component {
 		scope[name] = toClosure(closure);
 	}
 }
+</cfscript>
