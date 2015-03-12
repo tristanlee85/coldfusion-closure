@@ -4,7 +4,7 @@
  * @author Tristan Lee
  */
 component {
-	// must be set in Application.cfc mappings for CF Admin
+	// must be set in Application.cfc mappings or CF Admin
 	variables.closureMapping = "/closures";
 	
 	public any function init () {
